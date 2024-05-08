@@ -9,6 +9,7 @@ public class Cfdi {
     private String NameId ;
     private String Date;
     private String Serie;
+    private String Folio;
     private String PaymentAccountNumber;
     private Double CurrencyExchageRate;
     private String Currency;
@@ -65,6 +66,16 @@ public class Cfdi {
    public void setSerie(String Serie)
    {
       this.Serie = Serie;
+   }
+   
+   public String getFolio()
+   {
+        return Folio;
+   }
+   
+   public void setFolio(String Folio)
+   {
+      this.Folio = Folio;
    }
 
    public String getPaymentAccountNumber()
