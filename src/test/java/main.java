@@ -1,15 +1,15 @@
-public class main 
-{
-    public static void main(String[] args) 
-    {
+
+public class main {
+
+    public static void main(String[] args) {
 //        SampleApiWeb ejemplo1 = new SampleApiWeb();
 //        ejemplo1.principal();
-//        
+
 //        SampleApiMultiemisor ejemplo2= new SampleApiMultiemisor();
 //        ejemplo2.principal();
-//
+
 //    SampleCatalog ejemplo3=new SampleCatalog();
 //    ejemplo3.principal();
-    
-    }  
+
+    }
 }

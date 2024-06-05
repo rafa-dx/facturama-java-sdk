@@ -1,5 +1,6 @@
 
 package com.Facturama.sdk_java.Models.Request;
+import java.util.List;
 
 
 public class RelatedDocument {
@@ -15,6 +16,7 @@ public class RelatedDocument {
    private Double AmountPaid;
    private Double ImpSaldoInsoluto;
    private String TaxObject;
+   private List<Tax> Taxes;
 
    public String getUuid()
    {
@@ -126,6 +128,14 @@ public class RelatedDocument {
    {
        this.TaxObject = TaxObject;
    }
+   
+   public List<Tax> getTaxes() {
+        return Taxes;
+    }
+    
+    public void setTaxes(List<Tax> Taxes) {
+        this.Taxes = Taxes;
+    }
    
         
 }
